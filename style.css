@@ -29,12 +29,13 @@ gonna use a vertacl nav bar
 		they cool af...
 Labled Ver for short
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-li{ text-align: center;} /* <--- to center icons */
+li{ text-align: center;
+	} /* <--- to center icons */
 
 
 .ver{
 	float:left;	
-	margin-right: 50px;
+	margin-right:50px;
 	position: fixed;
 	top:0;
 	left:0;
