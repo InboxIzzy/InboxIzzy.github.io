@@ -1,0 +1,138 @@
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~
+			banner
+			goes
+			here
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.banner{
+	box-sizing: border-box; /* this is to keep the box the same size even with padding*/
+	height:120px;
+	background-image: url("images/sky.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-size:60px;
+	color: #12AA14;
+	text-align: center;
+	padding: 20px;
+	line-height: 50px;
+	background-attachment: fixed;
+/* Top/ Right /Bottom /Left= margin order */
+	margin: 0;
+	border: double 10px #12AA14;
+	box-shadow: 0 3px 5px 2px #000000;
+/*x (0 to the right), y (2 down), blur (5), spread (0), color (dk blue)*/
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~
+gonna use a vertacl nav bar
+		they cool af...
+Labled Ver for short
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+li{ text-align: center;} /* <--- to center icons */
+
+
+.ver{
+	float:left;	
+	margin-right: 50px;
+	position: fixed;
+	top:0;
+	left:0;
+}
+/*img{
+display:block;
+margin:0 auto;*/
+.ver {
+background-image: url ("image/icons.png"); 
+display:block;
+margin:0 auto;
+padding:5px;
+
+}
+.ver ul { 
+    list-style-type: none; 
+    /* Top/ Right /Bottom /Left= margin order */
+    margin: 25px 0px 0px 5px;
+    padding: 50px 20px 50px 0px; 
+	width:120px;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+.ver li { 
+    padding: 10px 8px 10px 8px; /*list items are getting treated as boxes*/
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color :#FCDAFB;
+    color: #ffffff;
+    text-indent: 28px;
+	box-shadow: 0 4px 5px 2px #000000;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+/*x (0 to the right), y (2 down), blur (5), spread (0), color (dk blue)*/
+} 
+.ver li:hover {
+    background-color: #0099cc;
+}
+a{
+	text-decoration: none; /*removes underlined*/	
+}
+a:link{
+	 color: #E62353;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+a:visited{
+	 color: #000000;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+
+a:hover{
+	 color: #5E166E;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+a:active{
+	 color: #98E623;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~
+			body
+			tag
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body{	/* Top/ Right /Bottom /Left= margin order */
+
+		margin: 70px 70px 40px 180px;
+		font-size: 20px;
+		background-image: url("images/temp.jpg");
+		background-color: #f8f9ed;
+		font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+		color:#FFFFFF;
+		background-repeat:fixed;
+		background-attachment: fixed;
+
+			}
+
+h1{
+		color:#FFFFFF; 
+	
+		font-size: 35px;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+
+h2{
+color:#FFFFFF; 
+		
+font-size: 30px;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	}
+
+h3{
+	color:#FFFFFF; 
+		
+font-size: 25px;
+font-family: "Lucida Sans Typewriter", "Lucida Console", Georgia, serif'Pathway Gothic One', sans-serif;	
+}
+
+
+
+
+
+
